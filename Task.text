@@ -1,0 +1,26 @@
+Create a Django Rest Framework Application to expose a few API's and also design and implement supporting database tables.
+Requirements:
+Expose the following API’s
+- Create a Company.
+- Create a Team (Should have company ID in path).
+- Get Company object from ID.
+- Search company by name.
+- Get All teams (Return all teams as an array grouped within company object)
+
+All the API’s should be accessible using a JWT token and only super admin is allowed the CRUD operations (use proper permission classes)
+
+Use the following Schema for Database designing
+Company
+-- UUID (primary Key)
+-- Company name
+-- Company CEO
+-- Company address
+-- Inception date
+ Team
+-- UUID (primary Key)
+-- CompanyID (Foreign Key)
+-- Team Lead Name
+
+Include a README file properly documented.
+
+Dockerize the Django App and include supporting files.

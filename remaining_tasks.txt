@@ -1,0 +1,5 @@
+
+All the API’s should be accessible using a JWT token and only super admin is allowed the CRUD operations (use proper permission classes)
+Include a README file properly documented.
+
+Dockerize the Django App and include supporting files.
